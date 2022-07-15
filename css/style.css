@@ -67,7 +67,7 @@ nav a:last-child {
   margin: 20px 0;
 }
 
-button {
+.header-button {
   border-radius: 8px;
   background-color: #3882f6;
   font-size: 18px;
@@ -123,6 +123,7 @@ button {
   height: 60px;
   text-align: center;
   margin: 10px 0 0 0;
+  color: #1f2937;
 }
 
 /*------------------------------------------------------*/
@@ -135,7 +136,7 @@ button {
 }
 
 .quote p {
-  font-size: 36px;
+  font-size: 30px;
   color: #1f2937;
   font-style: italic;
   font-weight: lighter;
@@ -150,5 +151,47 @@ button {
 }
 
 .action {
-  padding: 20px 200px 150px;
+  padding: 100px 200px;
+}
+
+.action-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #3882f6;
+  padding: 40px 100px;
+  border-radius: 8px;
+}
+
+.action-card-text h1 {
+  color: white;
+  font-size: 24px;
+}
+
+.action-card-text p {
+  color: lightgray;
+  font-size: 18px;
+}
+
+.action-card-button {
+  border-radius: 8px;
+  background-color: #3882f6;
+  font-size: 15px;
+  border: 2px solid white;
+  padding: 8px 40px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+}
+
+footer {
+  text-align: center;
+  background-color: #1f2937;
+  padding: 30px 0;
+}
+
+footer p {
+  color: white;
+  font-size: 18px;
 }
